@@ -1,0 +1,37 @@
+light_on = True
+
+if light_on:
+  print("The light is on")
+#Console : The light is on
+
+if light_on:
+  print("The light is on")
+  print(“Apple”)
+#Console : The light is on Apple
+light_on = False
+
+if light_on:
+  print("The light is on")
+else:
+  print("it's Off !") Console : it's Off !"
+
+
+weight = 65
+
+if weight < 70:
+  print(“Skinny boy)
+else:
+  print(“fat boy”)
+#Console : Skinny boy
+
+
+age = 17
+
+if age < 18:
+  print ("Im a kid")
+if age == 17:
+  print ("im 17")
+else:
+  print ("im old")
+
+#Console : Im a kid im 17
