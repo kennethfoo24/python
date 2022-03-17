@@ -1,0 +1,16 @@
+my_text = """ a a a b b c cc d d A"""
+
+print (my_text.split())
+
+word_count = {}      #variable to hold our empty dictionary
+
+for words in my_text.lower().split():			#for loop each words in the my_text.split function and make it all lower case letters
+  if words in word_count:					#if the word exists in each instance in the word_count dictionary, add 1 to the running number
+    word_count[words] += 1
+  else:									#else, the number for that word is just 1 for 1 instance
+    word_count[words] = 1
+
+print (word_count)
+
+#Console: ['a', 'a', 'a', 'b', 'b', 'c', 'cc', 'd', 'd', 'A']
+#{'a': 4, 'b': 2, 'c': 1, 'cc': 1, 'd': 2}
