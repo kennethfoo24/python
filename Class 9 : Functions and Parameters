@@ -1,0 +1,40 @@
+def dogbark():
+  print("woof woof")
+
+for x in range(3):
+  dogbark()					  # runs the dogbark function code 3 times, which prints woof woof
+
+def hello(name):
+  print(f"hello {name}")
+
+hello("Kenneth")
+
+def add_numbers(num1, num2):
+  print(num1 + num2)
+
+add_numbers(4,8)
+add_numbers(3,4)			# runs the add_numbers function code, which adds the numbers u pass in as a paramter under num1 and num2
+
+
+def dog_info(age, name):
+  print(f"hi im a dog named {name}, and im {age}")
+  if age < 20:
+    print("im less than 20 years old")
+  else:
+    print("im more than 20 years old")
+  if len(name) > 3:
+    print("i bark")
+  else:
+    print("i lick")
+    
+dog_info(7,"sally")			# runs the dog_info function code, which prints the statements based on parameter, and give if statements based on parameter of age and name
+
+#Console:woof woof
+#woof woof
+#woof woof
+#hello Kenneth
+#12
+#7
+#hi im a dog named sally, and im 7
+#im less than 20 years old
+#i bark
