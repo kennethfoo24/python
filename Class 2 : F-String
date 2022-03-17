@@ -1,0 +1,5 @@
+day = 25
+month = march
+
+print (f”today is {day} of {month}”)
+#Console: today is 25 of march
