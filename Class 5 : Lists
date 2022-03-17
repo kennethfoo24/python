@@ -1,0 +1,34 @@
+birthdates = [1,2,321.30,31232,22.22,"apple",True]
+
+print (birthdates)
+
+print (birthdates[0])
+print (birthdates[3])
+print (birthdates[5])
+print (birthdates[6])
+
+#Console: [1, 2, 321.3, 31232, 22.22, 'apple', True]
+#1
+#31232
+#apple
+#True
+
+birthdates = [1,2,321.30,31232,22.22,"apple",True]
+print (len(birthdates))
+
+birthdates.append("kenneth")
+
+print (len(birthdates))
+print (birthdates)
+
+birthdates.insert(0,"michelle")
+print (birthdates)
+
+del(birthdates[0])
+print (birthdates)
+
+#Console: 7
+#8
+#[1, 2, 321.3, 31232, 22.22, 'apple', True, 'kenneth']
+#['michelle', 1, 2, 321.3, 31232, 22.22, 'apple', True, 'kenneth']
+#[1, 2, 321.3, 31232, 22.22, 'apple', True, 'kenneth']
