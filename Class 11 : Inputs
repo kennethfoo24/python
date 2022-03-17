@@ -1,0 +1,39 @@
+#input concept allows you to freely type an input into the console
+input("Enter any value: ")
+
+#the below code converts my input, into a function that changes it all to uppercase
+user_text = input("Enter a value you like capitalized: ")
+
+def uppercase_my_word(word):
+  return word.upper()
+  
+print(uppercase_my_word(user_text))
+
+#the below code converts my input into uppercase or lowercase based on my choice
+upper_lower = input("Enter 1 to uppercase and 2 to lowercase: ")
+word_to_change = input("Enter the word you would like changed: ")
+
+if upper_lower == "1":
+  print(word_to_change.upper())
+if upper_lower == "2":
+  print(word_to_change.lower())
+else:
+  print("Invalid la... i said 1 or 2")
+
+#Console:
+#Enter any value: sadasd
+#Enter a value you like capitalized: asdasd
+#ASDASD
+#Enter 1 to uppercase and 2 to lowercase: 3
+#Enter the word you would like changed: dasd
+#Invalid la... i said 1 or 2
+
+
+#The below code converts the user input from a string to an number integer, which we can do math on
+user_number = input("Enter a number: ")
+
+print (int(user_number) * 3)
+
+#Console:
+#Enter a number: 3
+#9
