@@ -1,0 +1,31 @@
+for apple in range(5):
+  print (f"Hello World {apple}", apple)
+
+my_names = ["michelle", "kenneth", "daniel"]
+
+for name in my_names:
+  print(name)
+
+for new_number in range(5):
+  print ((new_number + 1)* 2)
+for new_number in range(5):
+  print (new_number * 2)
+
+#Console:Hello World 0 0
+#Hello World 1 1
+#Hello World 2 2
+#Hello World 3 3
+#Hello World 4 4
+#michelle
+#kenneth
+#daniel
+#2
+#4
+#6
+#8
+#10
+#0
+#2
+#4
+#6
+#8
