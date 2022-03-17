@@ -1,0 +1,17 @@
+age = 29
+weight = 75
+height = 170
+bitcoin = 0.023123
+shirt = “blue”
+store = 'Nick\’s pizza shop is the “best” there is.'
+
+print (age + 2)  Console : 31
+
+print (age * 2)
+#Console : 58
+
+print (shirt)
+#Console : blue
+
+print (store)
+#Console : Nick’s pizza shop is the “best” there is.
