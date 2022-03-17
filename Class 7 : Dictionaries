@@ -1,0 +1,30 @@
+cat = {"Tom":7, "Snow":4}
+
+print(cat)
+
+number_of_cats = len(cat)
+print(number_of_cats)
+
+tof = {1:True, 2:False}
+
+print(tof)
+
+#Console: {'Tom': 7, 'Snow': 4}
+#2
+#{1: True, 2: False}
+
+
+
+text = """ Together, digital media refers to mediums of digitized information broadcast to us through a screen and/or a speaker.[1] This also includes text, audio, video, and graphics that are transmitted over the internet for viewing or listening to on the internet.[2]
+
+Digital media platforms, such as YouTube, Vimeo, and Twitch accounted for viewership rates of 27.9 billion hours in 2020"""
+
+# Put triple quotes """ , so that words in the text don't get jumbled up
+
+print(len(text))    #prints the length of characters
+print(text.split())  #prints the text with spaces in between
+print(len(text.split())) #prints the lenth of words
+
+#Console: 382
+#['Together,', 'digital', 'media', 'refers', 'to', 'mediums', 'of', 'digitized', 'information', 'broadcast', 'to', 'us', 'through', 'a', 'screen', 'and/or', 'a', 'speaker.[1]', 'This', 'also', 'includes', 'text,', 'audio,', 'video,', 'and', 'graphics', 'that', 'are', 'transmitted', 'over', 'the', 'internet', 'for', 'viewing', 'or', 'listening', 'to', 'on', 'the', 'internet.[2]', 'Digital', 'media', 'platforms,', 'such', 'as', 'YouTube,', 'Vimeo,', 'and', 'Twitch', 'accounted', 'for', 'viewership', 'rates', 'of', '27.9', 'billion', 'hours', 'in', '2020']
+#59
